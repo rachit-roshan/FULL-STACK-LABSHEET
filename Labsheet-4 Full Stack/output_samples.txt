@@ -1,0 +1,68 @@
+SAMPLE OUTPUTS / VERIFICATION
+
+Task 1:
+=== Task 1: Custom Modules ===
+Sum of 10 and 15: 25
+24 is Even
+
+Task 2:
+=== Task 2: File System Operations ===
+Full file content:
+Name: Student Name
+Roll Number: Roll Number
+Course: Full Stack Web Development
+File renamed successfully: student.txt -> profile.txt
+
+Task 3:
+=== Task 3: Directory Operations ===
+Created directory: uploads
+Files before deletion: [ 'file1.txt', 'file2.txt', 'file3.txt' ]
+Deleted: file3.txt
+Files after deletion: [ 'file1.txt', 'file2.txt' ]
+
+Task 4:
+=== Task 4: Path Module ===
+Original path: /home/user/data/report.pdf
+Directory name: /home/user/data
+Base name: report.pdf
+Extension: .pdf
+Absolute path from relative path: <current-working-directory>/data/report.pdf
+
+Task 5:
+Output depends on the computer running the program:
+Platform: <platform>
+Architecture: <architecture>
+Total Memory (GB): <value>
+Free Memory (GB): <value>
+CPU Cores: <value>
+System Uptime (minutes): <value>
+
+Task 6:
+Three order receipts are printed, one for each order.
+
+Task 7:
+The server starts at http://localhost:3000 and returns:
+GET / -> welcome message
+GET /students -> JSON array of 3 students
+GET /students/1 -> matching student JSON
+GET /students/99 -> 404 JSON error
+Other routes -> 404 HTML page
+
+Task 8:
+For /search?keyword=node:
+Search keyword: node
+
+Task 9:
+The program creates 60 lines and prints the byte size of every stream chunk.
+The number and size of chunks depend on the Node.js runtime/environment.
+
+Task 10:
+Five unique IDs are printed. The exact IDs change every run.
+
+Task 11:
+For node calc-cli.js 10 5 +:
+10 + 5 = 15
+
+Task 12:
+If PORT=5000 is supplied:
+Environment variable demo server started on port 5000
